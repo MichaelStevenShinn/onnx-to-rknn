@@ -23,7 +23,7 @@ services:
     #  --target_platform: platform to convert for (default: rk3566)
     #  --verbose or -v: for detailed logs
     command: >
-      --model_source Real-ESRGAN-x2plus.onnx
+      --model_source FUELMODEL.onnx
       -v
 
 # --- How to use ---

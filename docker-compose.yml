@@ -23,7 +23,9 @@ services:
     #  --target_platform: platform to convert for (default: rk3566)
     #  --verbose or -v: for detailed logs
     command: >
-      --model_source FUELMODEL.onnx
+      --model_source /workspace/input_models/FUELMODEL.onnx
+      --resolutions 1280x256
+      --target_platform RK3588
       -v
 
 # --- How to use ---
